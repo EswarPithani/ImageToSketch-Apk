@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!-- Base Text Appearance Styles -->
+    <style name="MyAppTextAppearance">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">400</item> <!-- Normal weight -->
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <!-- Base Text Appearance Styles -->
+    <style name="MyAppTextAppearance.BodyLarge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontWeight">400</item> <!-- Normal weight -->
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:letterSpacing">0.05</item> <!-- Equivalent to 0.5.sp in Compose -->
+    </style>
+
+    <style name="MyAppTextAppearance.TitleLarge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:fontWeight" tools:ignore="NewApi">400</item>
+        <item name="android:lineHeight" tools:ignore="NewApi">28sp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="MyAppTextAppearance.LabelSmall">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:fontWeight" tools:ignore="NewApi">500</item> <!-- Medium weight -->
+        <item name="android:lineHeight" tools:ignore="NewApi">16sp</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+</resources>
