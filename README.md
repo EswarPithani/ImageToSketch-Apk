@@ -1,1 +1,1 @@
-# ImageToSketch-Apk
+This project aims to create a simple Android app that converts images into pencil sketches. Users can upload photos from their gallery or capture new ones with the camera. The app utilizes filters, including blending techniques, to achieve a realistic pencil-drawn effect, making it easy and fun for users to transform their images into sketchimages
